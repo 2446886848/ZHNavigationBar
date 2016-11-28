@@ -7,15 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E80E76B01DEBE363006E2FB6 /* UIView+ZHNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E80E76AA1DEBE363006E2FB6 /* UIView+ZHNavigationBar.m */; };
+		E80E76B11DEBE363006E2FB6 /* UIViewController+ZHNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E80E76AC1DEBE363006E2FB6 /* UIViewController+ZHNavigationBar.m */; };
+		E80E76B21DEBE363006E2FB6 /* ZHCustomNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E80E76AE1DEBE363006E2FB6 /* ZHCustomNavigationBar.m */; };
 		E886BDC41DE7EA7000B2E8C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E886BDC31DE7EA7000B2E8C0 /* main.m */; };
 		E886BDC71DE7EA7000B2E8C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E886BDC61DE7EA7000B2E8C0 /* AppDelegate.m */; };
 		E886BDCA1DE7EA7000B2E8C0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E886BDC91DE7EA7000B2E8C0 /* ViewController.m */; };
 		E886BDCD1DE7EA7000B2E8C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E886BDCB1DE7EA7000B2E8C0 /* Main.storyboard */; };
 		E886BDCF1DE7EA7000B2E8C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E886BDCE1DE7EA7000B2E8C0 /* Assets.xcassets */; };
 		E886BDD21DE7EA7000B2E8C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E886BDD01DE7EA7000B2E8C0 /* LaunchScreen.storyboard */; };
+		E886BDE41DE7ED2800B2E8C0 /* CustomLeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E886BDE31DE7ED2800B2E8C0 /* CustomLeftViewController.m */; };
+		E886BDE71DE7ED3200B2E8C0 /* CustomRightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E886BDE61DE7ED3200B2E8C0 /* CustomRightViewController.m */; };
+		E886BDEA1DE7ED3F00B2E8C0 /* CustomTitleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E886BDE91DE7ED3F00B2E8C0 /* CustomTitleViewController.m */; };
+		E886BDF01DE7ED6900B2E8C0 /* CustomTopBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E886BDEF1DE7ED6900B2E8C0 /* CustomTopBarViewController.m */; };
+		E886BDF31DE7ED9B00B2E8C0 /* CustomLMRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E886BDF21DE7ED9B00B2E8C0 /* CustomLMRViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E80E76A91DEBE363006E2FB6 /* UIView+ZHNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZHNavigationBar.h"; sourceTree = "<group>"; };
+		E80E76AA1DEBE363006E2FB6 /* UIView+ZHNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZHNavigationBar.m"; sourceTree = "<group>"; };
+		E80E76AB1DEBE363006E2FB6 /* UIViewController+ZHNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ZHNavigationBar.h"; sourceTree = "<group>"; };
+		E80E76AC1DEBE363006E2FB6 /* UIViewController+ZHNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ZHNavigationBar.m"; sourceTree = "<group>"; };
+		E80E76AD1DEBE363006E2FB6 /* ZHCustomNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHCustomNavigationBar.h; sourceTree = "<group>"; };
+		E80E76AE1DEBE363006E2FB6 /* ZHCustomNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHCustomNavigationBar.m; sourceTree = "<group>"; };
+		E80E76AF1DEBE363006E2FB6 /* ZHNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHNavigationBar.h; sourceTree = "<group>"; };
 		E886BDBF1DE7EA7000B2E8C0 /* ZHNavigationBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZHNavigationBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E886BDC31DE7EA7000B2E8C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E886BDC51DE7EA7000B2E8C0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +41,16 @@
 		E886BDCE1DE7EA7000B2E8C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E886BDD11DE7EA7000B2E8C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E886BDD31DE7EA7000B2E8C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E886BDE21DE7ED2800B2E8C0 /* CustomLeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomLeftViewController.h; sourceTree = "<group>"; };
+		E886BDE31DE7ED2800B2E8C0 /* CustomLeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomLeftViewController.m; sourceTree = "<group>"; };
+		E886BDE51DE7ED3200B2E8C0 /* CustomRightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomRightViewController.h; sourceTree = "<group>"; };
+		E886BDE61DE7ED3200B2E8C0 /* CustomRightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomRightViewController.m; sourceTree = "<group>"; };
+		E886BDE81DE7ED3F00B2E8C0 /* CustomTitleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTitleViewController.h; sourceTree = "<group>"; };
+		E886BDE91DE7ED3F00B2E8C0 /* CustomTitleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTitleViewController.m; sourceTree = "<group>"; };
+		E886BDEE1DE7ED6900B2E8C0 /* CustomTopBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTopBarViewController.h; sourceTree = "<group>"; };
+		E886BDEF1DE7ED6900B2E8C0 /* CustomTopBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTopBarViewController.m; sourceTree = "<group>"; };
+		E886BDF11DE7ED9B00B2E8C0 /* CustomLMRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomLMRViewController.h; sourceTree = "<group>"; };
+		E886BDF21DE7ED9B00B2E8C0 /* CustomLMRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomLMRViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +64,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E80E76A71DEBE363006E2FB6 /* ZHNavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				E80E76A81DEBE363006E2FB6 /* classes */,
+				E80E76AF1DEBE363006E2FB6 /* ZHNavigationBar.h */,
+			);
+			path = ZHNavigationBar;
+			sourceTree = "<group>";
+		};
+		E80E76A81DEBE363006E2FB6 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				E80E76A91DEBE363006E2FB6 /* UIView+ZHNavigationBar.h */,
+				E80E76AA1DEBE363006E2FB6 /* UIView+ZHNavigationBar.m */,
+				E80E76AB1DEBE363006E2FB6 /* UIViewController+ZHNavigationBar.h */,
+				E80E76AC1DEBE363006E2FB6 /* UIViewController+ZHNavigationBar.m */,
+				E80E76AD1DEBE363006E2FB6 /* ZHCustomNavigationBar.h */,
+				E80E76AE1DEBE363006E2FB6 /* ZHCustomNavigationBar.m */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
 		E886BDB61DE7EA6F00B2E8C0 = {
 			isa = PBXGroup;
 			children = (
@@ -63,6 +110,8 @@
 				E886BDC81DE7EA7000B2E8C0 /* ViewController.h */,
 				E886BDC91DE7EA7000B2E8C0 /* ViewController.m */,
 				E886BDCB1DE7EA7000B2E8C0 /* Main.storyboard */,
+				E80E76A71DEBE363006E2FB6 /* ZHNavigationBar */,
+				E886BDE11DE7ECEF00B2E8C0 /* ViewControllers */,
 				E886BDCE1DE7EA7000B2E8C0 /* Assets.xcassets */,
 				E886BDD01DE7EA7000B2E8C0 /* LaunchScreen.storyboard */,
 				E886BDD31DE7EA7000B2E8C0 /* Info.plist */,
@@ -77,6 +126,23 @@
 				E886BDC31DE7EA7000B2E8C0 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E886BDE11DE7ECEF00B2E8C0 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E886BDE21DE7ED2800B2E8C0 /* CustomLeftViewController.h */,
+				E886BDE31DE7ED2800B2E8C0 /* CustomLeftViewController.m */,
+				E886BDE51DE7ED3200B2E8C0 /* CustomRightViewController.h */,
+				E886BDE61DE7ED3200B2E8C0 /* CustomRightViewController.m */,
+				E886BDE81DE7ED3F00B2E8C0 /* CustomTitleViewController.h */,
+				E886BDE91DE7ED3F00B2E8C0 /* CustomTitleViewController.m */,
+				E886BDEE1DE7ED6900B2E8C0 /* CustomTopBarViewController.h */,
+				E886BDEF1DE7ED6900B2E8C0 /* CustomTopBarViewController.m */,
+				E886BDF11DE7ED9B00B2E8C0 /* CustomLMRViewController.h */,
+				E886BDF21DE7ED9B00B2E8C0 /* CustomLMRViewController.m */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,9 +217,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E886BDE41DE7ED2800B2E8C0 /* CustomLeftViewController.m in Sources */,
+				E886BDF31DE7ED9B00B2E8C0 /* CustomLMRViewController.m in Sources */,
+				E80E76B11DEBE363006E2FB6 /* UIViewController+ZHNavigationBar.m in Sources */,
+				E886BDF01DE7ED6900B2E8C0 /* CustomTopBarViewController.m in Sources */,
 				E886BDCA1DE7EA7000B2E8C0 /* ViewController.m in Sources */,
+				E80E76B01DEBE363006E2FB6 /* UIView+ZHNavigationBar.m in Sources */,
+				E886BDEA1DE7ED3F00B2E8C0 /* CustomTitleViewController.m in Sources */,
 				E886BDC71DE7EA7000B2E8C0 /* AppDelegate.m in Sources */,
 				E886BDC41DE7EA7000B2E8C0 /* main.m in Sources */,
+				E886BDE71DE7ED3200B2E8C0 /* CustomRightViewController.m in Sources */,
+				E80E76B21DEBE363006E2FB6 /* ZHCustomNavigationBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +384,7 @@
 				E886BDD81DE7EA7000B2E8C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
