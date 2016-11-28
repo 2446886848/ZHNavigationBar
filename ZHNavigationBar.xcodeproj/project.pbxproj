@@ -10,6 +10,7 @@
 		E80E76B01DEBE363006E2FB6 /* UIView+ZHNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E80E76AA1DEBE363006E2FB6 /* UIView+ZHNavigationBar.m */; };
 		E80E76B11DEBE363006E2FB6 /* UIViewController+ZHNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E80E76AC1DEBE363006E2FB6 /* UIViewController+ZHNavigationBar.m */; };
 		E80E76B21DEBE363006E2FB6 /* ZHCustomNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E80E76AE1DEBE363006E2FB6 /* ZHCustomNavigationBar.m */; };
+		E80E76B51DEBFC0B006E2FB6 /* UINavigationBar+Appearance.m in Sources */ = {isa = PBXBuildFile; fileRef = E80E76B41DEBFC0B006E2FB6 /* UINavigationBar+Appearance.m */; };
 		E886BDC41DE7EA7000B2E8C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E886BDC31DE7EA7000B2E8C0 /* main.m */; };
 		E886BDC71DE7EA7000B2E8C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E886BDC61DE7EA7000B2E8C0 /* AppDelegate.m */; };
 		E886BDCA1DE7EA7000B2E8C0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E886BDC91DE7EA7000B2E8C0 /* ViewController.m */; };
@@ -31,6 +32,8 @@
 		E80E76AD1DEBE363006E2FB6 /* ZHCustomNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHCustomNavigationBar.h; sourceTree = "<group>"; };
 		E80E76AE1DEBE363006E2FB6 /* ZHCustomNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHCustomNavigationBar.m; sourceTree = "<group>"; };
 		E80E76AF1DEBE363006E2FB6 /* ZHNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHNavigationBar.h; sourceTree = "<group>"; };
+		E80E76B31DEBFC0B006E2FB6 /* UINavigationBar+Appearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+Appearance.h"; sourceTree = "<group>"; };
+		E80E76B41DEBFC0B006E2FB6 /* UINavigationBar+Appearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+Appearance.m"; sourceTree = "<group>"; };
 		E886BDBF1DE7EA7000B2E8C0 /* ZHNavigationBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZHNavigationBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E886BDC31DE7EA7000B2E8C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E886BDC51DE7EA7000B2E8C0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -82,6 +85,8 @@
 				E80E76AC1DEBE363006E2FB6 /* UIViewController+ZHNavigationBar.m */,
 				E80E76AD1DEBE363006E2FB6 /* ZHCustomNavigationBar.h */,
 				E80E76AE1DEBE363006E2FB6 /* ZHCustomNavigationBar.m */,
+				E80E76B31DEBFC0B006E2FB6 /* UINavigationBar+Appearance.h */,
+				E80E76B41DEBFC0B006E2FB6 /* UINavigationBar+Appearance.m */,
 			);
 			path = classes;
 			sourceTree = "<group>";
@@ -222,6 +227,7 @@
 				E80E76B11DEBE363006E2FB6 /* UIViewController+ZHNavigationBar.m in Sources */,
 				E886BDF01DE7ED6900B2E8C0 /* CustomTopBarViewController.m in Sources */,
 				E886BDCA1DE7EA7000B2E8C0 /* ViewController.m in Sources */,
+				E80E76B51DEBFC0B006E2FB6 /* UINavigationBar+Appearance.m in Sources */,
 				E80E76B01DEBE363006E2FB6 /* UIView+ZHNavigationBar.m in Sources */,
 				E886BDEA1DE7ED3F00B2E8C0 /* CustomTitleViewController.m in Sources */,
 				E886BDC71DE7EA7000B2E8C0 /* AppDelegate.m in Sources */,

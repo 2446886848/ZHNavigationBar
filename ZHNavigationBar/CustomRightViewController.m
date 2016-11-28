@@ -30,6 +30,8 @@
     [rightButton addTarget:self action:@selector(back) forControlEvents:UIControlEventTouchUpInside];
     //设置左侧的自定义控件
     self.zh_navigationRightView = rightButton;
+     [self.navigationController.navigationBar zh_backgroundClear];
+    
     NSLog(@"navivationbar = %@", self.navigationController.navigationBar);
 }
 
